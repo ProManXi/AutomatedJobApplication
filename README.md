@@ -136,7 +136,7 @@ Build this first.
 
 ---
 
-### Phase 2 — Job Discovery Engine
+### Phase 2 — Job Discovery Engine (APIFU????)
 
 - LinkedIn search (filters, pagination, extraction)  
 - Extract job details (title, company, description)  
