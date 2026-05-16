@@ -113,4 +113,96 @@ You should standardize this immediately.
 
 ---
 
-## 4. High-Level Architecture
+
+---
+
+## 5. Components You Need To Build First (Very Important)
+
+---
+
+### Phase 1 — Candidate Intelligence System
+
+Build this first.
+
+**Why:** Everything depends on it.
+
+**Features:**
+- Resume parser  
+- Candidate knowledge graph (skills, projects, experience)  
+- Reusable answer bank  
+  - “Why do you want this role?”  
+  - “Describe React experience”  
+  - “Visa sponsorship?”  
+
+---
+
+### Phase 2 — Job Discovery Engine
+
+- LinkedIn search (filters, pagination, extraction)  
+- Extract job details (title, company, description)  
+
+⚠️ **Important:**  
+Do NOT automate applying yet. Only collect and parse jobs first.
+
+---
+
+### Phase 3 — Job Intelligence Engine
+
+- Parse job descriptions  
+- Fit scoring (how relevant a job is)  
+
+---
+
+### Phase 4 — Resume Tailoring Engine
+
+**Inputs:**
+- Master resume  
+- Job description  
+
+**Outputs:**
+- ATS-friendly resume  
+- Customized bullet points  
+- Keyword optimization  
+
+---
+
+### Phase 5 — AI Writing Engine
+
+Major subsystem:
+- Cover letters  
+- Form answers  
+- Personalized responses  
+
+---
+
+### Phase 6 — Browser Automation Engine
+
+- Application filling  
+- Navigation automation  
+
+---
+
+### Phase 7 — Form Intelligence Engine
+
+⚠️ This is the hardest and most important part.
+
+- Dynamic form detection  
+- Field mapping  
+- Auto-filling logic  
+
+---
+
+### Phase 8 — Human Approval System
+
+- Review before submission  
+- Edit responses  
+- Approval workflows  
+
+---
+
+### Phase 9 — Observability
+
+- Logs  
+- Screenshots  
+- Debugging traces  
+- System monitoring  
